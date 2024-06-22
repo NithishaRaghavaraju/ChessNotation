@@ -15,7 +15,7 @@ const page = () => {
         />
         <h5 className="my-auto xs:leading-10 xs:text-base xs:px-2 xs:py-0 px-0 py-4 text-sm leading-10">
           Explore our playful chess notation games. With interactive quizzes and
-          puzzles, you'll master chess notation in no time
+          puzzles, you will master chess notation in no time.
         </h5>
       </div>
       <h4 className="text-center xs:text-2xl text-xl">VS</h4>

@@ -38,7 +38,7 @@ const Remember = () => {
         </div>
         <div className="flex flex-col items-center">
           <Image src={pawn} height={190} />
-          <h5 className="xs:text-lg text-[12px]">PAWN : ' '</h5>
+          <h5 className="xs:text-lg text-[12px]">PAWN : &apos; &apos;</h5>
         </div>
       </div>
 

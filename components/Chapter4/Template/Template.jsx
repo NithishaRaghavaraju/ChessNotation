@@ -196,7 +196,7 @@ const ChessBoardComponent = ({ showNotation, allowUserInput, position }) => {
             </p>
             {showSolution && (
               <p className="text-left text-[12px]">
-                I'm surprised you gave up so soon. sol : {answer}
+                I am surprised you gave up so soon. sol : {answer}
               </p>
             )}
           </div>
@@ -218,7 +218,7 @@ const ChessBoardComponent = ({ showNotation, allowUserInput, position }) => {
             {isAmbiguity && (
               <p className="mx-auto text-sm">
                 Specifing the number or letter since two{" "}
-                {chesspiecenotation[movedpiece]}'s can occupy the same position.
+                {chesspiecenotation[movedpiece]}&apos;s can occupy the same position.
               </p>
             )}
             {isCapture && <p className="text-center mx-auto">Capture = "x"</p>}
@@ -284,7 +284,7 @@ const Template = ({ title, fetchUrl, useranswer = 1, bothgames = false }) => {
             </span>
             <br />
             1) Understand the target position (Maroon) and piece that is moved
-            and it's movement shown in the example diagram
+            and it&apos;s movement shown in the example diagram
             <br />
             2) Apply the same logic to the corresponding diagram, ensuring they
             move from the Brown position <br />
@@ -304,7 +304,7 @@ const Template = ({ title, fetchUrl, useranswer = 1, bothgames = false }) => {
       )}
       <div className=" py-7 grid lg:grid-cols-2 grid-cols-1">
         {positions.map((position, index) => (
-          <div className="mx-auto">
+          <div className="mx-auto" key={index}>
             <ChessBoardComponent
               key={index}
               showNotation={true}
