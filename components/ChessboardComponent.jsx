@@ -5,7 +5,7 @@ import { Chessboard } from "react-chessboard";
 import { Chess } from "chess.js";
 import rightarrow from "@/public/Images/rightarrow.png";
 import leftarrow from "@/public/Images/leftarrow.png";
-import Reset from "@/public/Images/reset.png";
+import Reset from "@/public/Images/Reset.png";
 import Image from "next/image";
 
 const ChessboardComponent = () => {
