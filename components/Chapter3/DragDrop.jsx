@@ -76,8 +76,9 @@ const DragDrop = () => {
         CHAPTER III : Notation for moves
       </h6>
       <h5 className="text-center xs:py-7 xs:text-base xxs:text-sm text-[12px]">
-        Lesson 2: Fill the following blanks
+        Lesson 2: Drag and Drop the Items Below
       </h5>
+      <p className="text-[12px]">Note : Hold the items from the bottom and place them in the appropriate blanks.</p>
       <div className="space-y-4 ml-4 pt-12 pb-6">
         {blanks.map((blank) => (
           <div key={blank.id} className="flex mb-2">
