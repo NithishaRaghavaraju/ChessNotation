@@ -2,32 +2,49 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
-}
-
 body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background: #F6F5F2;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+h1 {
+  font-family: var(--inknut_antiqua-font);
+  font-weight: 600;
+  font-size: 60px;
 }
+h5{
+  font-family: var(--inknut_antiqua-font);
+  font-weight: 600;
+  font-size: 16px;
+
+}
+
+h4{
+  font-family: var(--inknut_antiqua-font);
+  font-weight: 400;
+  font-size: 28px;
+}
+
+p{
+  font-family: var(--inter-font);
+}
+
+h6{
+  font-family: var(--baskervville-font);
+  font-size: 20px;
+  font-style: italic;
+}
+
+button{
+  font-family: var(--inknut_antiqua-font);
+  font-weight: 200;
+  font-size: 20px;
+
+}
+
+.chessboard-piece {
+  width: 50px ;
+  height: 50px ;
+}
+

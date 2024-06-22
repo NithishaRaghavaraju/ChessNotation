@@ -1,7 +1,28 @@
-import { Inter } from "next/font/google";
+import { Inter ,Inknut_Antiqua,Baskervville} from "next/font/google";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
-const inter = Inter({ subsets: ["latin"] });
+
+export const inknut_antiqua = Inknut_Antiqua({ subsets: ["latin"], 
+
+  weight:["300","400","500","600","700"],
+  display: 'swap',
+  variable:"--inknut_antiqua-font"
+});
+export const inter= Inter({ subsets: ["latin"], 
+  display: 'swap',
+  weight:["300","400","500","600","700"],
+  variable:"--inter-font"
+});
+
+export const baskervville = Baskervville({
+  subsets: ["latin"], 
+  display: 'swap',
+  weight:["400"],
+  variable:"--baskervville-font"
+})
+
+
 
 export const metadata = {
   title: "Create Next App",
@@ -11,7 +32,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inknut_antiqua.variable} ${inter.variable} ${baskervville.variable}`}>
+      <Navbar/>
+      {children}
+      
+      </body>
+      
     </html>
   );
 }
