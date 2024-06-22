@@ -106,13 +106,24 @@ const SquareNaming = () => {
   };
 
   const handleFinalSubmit = () => {
+    console.log("dfghjk")
     const newResults = userValues.map(
       (value, index) =>
         value && value.toLowerCase() === correctValues[index].toLowerCase()
     );
     setResults(newResults);
+    
     setOverlay(true);
-    if (newResults.every((result) => result === true)) {
+    if(numBoards == 2){
+      var Results= newResults.slice(0,2)
+      
+    }
+    else{
+      var Results= newResults
+    }
+    console.log(numBoards)
+    console.log(newResults.slice(0,2))
+    if (Results.every((result) => result === true)) {
       setMessage("Great job! Everything is correct. Click NEXT to keep going!");
     } else {
       setMessage("Some are incorrect, Click REPLAY to try again!");
