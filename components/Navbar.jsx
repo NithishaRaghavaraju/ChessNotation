@@ -58,6 +58,7 @@ const Navbar = () => {
       <div className="relative w-36 xl:hidden" onClick={toggleMenuDropdown}>
         <Image
           src={menu}
+          alt="menu"
           className="sm:h-[50px] sm:w-[50px] h-[40px] w-[40px]"
         />
         {dropdownmenuOpen && (
