@@ -1,7 +1,6 @@
 import { Inter ,Inknut_Antiqua,Baskervville} from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import Template from "@/components/Chapter4/Template/Template";
 
 
 
@@ -31,7 +30,12 @@ export const metadata = {
     default : "Chess Notation",
     template: "%s - Chess Notation"
   },
-  description: "Learn Chess Notation with cool interesting games"
+  description: "Learn Chess Notation with cool interesting games",
+  verification: {
+    google: 'i2gZnTm2Wp8yVfnsFB1AQNb_sDIvBG4Ld8RfwnaJhdI',
+    
+  }
+
 
 };
 
