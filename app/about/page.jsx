@@ -2,6 +2,11 @@ import WhiteKing from "@/public/Images/white_king.png";
 import BlackKing from "@/public/Images/black_king.png";
 import Image from "next/image";
 
+export const metadata = {
+  title: "About",
+  
+};
+
 const page = () => {
   return (
     <div className=" xl:mx-56 lg:mx-36 mx-0">

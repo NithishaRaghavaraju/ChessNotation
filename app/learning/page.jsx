@@ -19,6 +19,7 @@ import Game1 from "@/components/Chapter4/game1";
 import Congratulations from "@/components/Chapter5/Congratulations";
 import Castling from "@/components/Chapter4/Castling";
 
+
 const components = [
   GetStarted,
   NamingSquares,
