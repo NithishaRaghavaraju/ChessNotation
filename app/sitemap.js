@@ -1,16 +1,16 @@
 export default function sitemap() {
     return [
       {
-        url: 'https://chess-notation-bay.vercel.app',
+        url: 'https://learn-chess-notation.vercel.app',
       },
       {
-        url: 'https://chess-notation-bay.vercel.app/about',
+        url: 'https://learn-chess-notation.vercel.app/about',
       },
       {
-        url: 'https://chess-notation-bay.vercel.app/learning',
+        url: 'https://learn-chess-notation.vercel.app/learning',
       },
       {
-        url: 'https://chess-notation-bay.vercel.app/noteyourgame',
+        url: 'https://learn-chess-notation.vercel.app/noteyourgame',
       },
     ]
   }

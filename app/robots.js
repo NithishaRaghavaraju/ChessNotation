@@ -5,6 +5,6 @@ export default function robots() {
         allow: '/',
         disallow: '/private/',
       },
-      sitemap: 'https://chess-notation-bay.vercel.app/sitemap.xml',
+      sitemap: 'https://learn-chess-notation.vercel.app/sitemap.xml',
     }
   }
