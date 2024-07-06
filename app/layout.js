@@ -34,7 +34,8 @@ export const metadata = {
   verification: {
     google: 'i2gZnTm2Wp8yVfnsFB1AQNb_sDIvBG4Ld8RfwnaJhdI',
     
-  }
+  },
+  
 
 
 };
@@ -42,6 +43,12 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+    <Head>
+    <title>{metadata.title.default}</title>
+    <meta name="description" content={metadata.description} />
+    <meta name="google-site-verification" content={metadata.verification.google} />
+    <link rel="canonical" href="https://chess-notation-bay.vercel.app/" />
+  </Head>
       <body className={`${inknut_antiqua.variable} ${inter.variable} ${baskervville.variable}`}>
       <Navbar/>
       {children}
