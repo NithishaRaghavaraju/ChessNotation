@@ -3,10 +3,14 @@ Chess Notation is an intuitive learning platform designed to help users master c
 
 ## ✨ Features
 🚀 Built with Next.js for superior performance and Tailwind CSS for a sleek, responsive design.
+
 ♟️ 10+ Interactive Chess Games to help users effortlessly learn chess notation.
+
 🔍 Advanced Game Review: Users can annotate moves and gain strategic insights.
+
 📈 30% Increase in User Engagement due to optimized performance and interactive features.
-🔗 Live Demo
+
+## 🔗 Live Demo
 Check out the project here: https://learn-chess-notation.vercel.app/
 
 ## 🛠️ Tech Stack
